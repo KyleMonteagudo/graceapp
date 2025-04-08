@@ -10,9 +10,9 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
 # Read configuration from environment variables
-endpoint = os.getenv("ENDPOINT_URL", "https://testfoundryhub9504753795.openai.azure.us/") 
-deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4o")
-subscription_key = os.getenv("AZURE_OPENAI_API_KEY", "Du7gNLkmn1Q3Flqd98IWxvtcxom1QuSWoTfFPztQ2om6teMDBEjjJQQJ99BDAJ2z705IUj3iAAAAACOGqB24")  
+endpoint = os.getenv("ENDPOINT_URL", "INSERT AZURE OPENAI ENDPOINT URL") 
+deployment = os.getenv("DEPLOYMENT_NAME", "INSERT DEPLOYMENT NAME")
+subscription_key = os.getenv("AZURE_OPENAI_API_KEY", "INSERT YOUR API KEY HERE")  
 
 # Initialize Azure OpenAI Service client with key-based authentication    
 client = AzureOpenAI(  
