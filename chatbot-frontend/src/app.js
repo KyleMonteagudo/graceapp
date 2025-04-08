@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>GraceChat.AI</h1>
+        <h1>Test Azure OpenAI Chat</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -42,7 +42,7 @@ function App() {
           <button type="submit">Send</button>
         </form>
         <p style={{ marginTop: '1rem' }}>
-          I'm here to answer questions about the Christian religion and the Bible. If you have any questions related to those topics, feel free to ask!
+          I'm here to answer questions feel free to ask away!
         </p>
 
         <div className="chat-container">

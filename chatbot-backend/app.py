@@ -31,9 +31,7 @@ def chat():
             "role": "system",
             "content": [{
                 "type": "text",
-                "text": ("You are an AI assistant that works for a company called 'GraceChat.AI'. "
-                         "Answer questions about the Christian religion and the Bible. "
-                         "Do not answer questions unrelated to these topics.")
+                "text": ("You are an AI assistant that answers questions users input.")
             }]
         },
         {
